@@ -30,6 +30,11 @@ export default {
     currentPositions(){
       return this.selectedCountries.map(country=> this.positions[country])
     }
+  },
+  watch:{
+    selectedCountries(){
+      this.$emit('updateZooming',this.currentPositions);
+    }
   }
 }
 </script>
