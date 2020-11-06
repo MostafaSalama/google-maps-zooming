@@ -9,10 +9,13 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@googlemaps/js-api-loader": "^1.8.0",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@nuxt/types": "~2.14.0"
+  },
   "prettier": {
     "singleQuote": true,
     "trailingComma": "all",
